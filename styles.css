@@ -11,10 +11,17 @@
 }
 
 body {
-          justify-content: center;
           background-color: rgb(161, 85, 31);
-          margin: auto;
+          margin: 0;
+          height: 100vh;
+          
+          background-image: url("The-Book-Nook\clay-banks-z_DkoUqgx6M-unsplash.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+          
           display: flex;
+          justify-content: center;
           align-items: center;
 }
 
@@ -27,9 +34,6 @@ body {
          text-align: right;
          justify-content: center;
          justify-content: right;
-         /* content: "";
-         clear: both;
-         display: table; */
          position: absolute;
          flex-wrap: wrap;
 }
@@ -40,5 +44,4 @@ body {
           border-radius: 9px;
           font-size: 2rem;
           color:white;
-          
 }
