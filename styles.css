@@ -11,11 +11,10 @@
 }
 
 body {
-          background-color: rgb(161, 85, 31);
           margin: 0;
           height: 100vh;
-          
-          background-image: url("The-Book-Nook\clay-banks-z_DkoUqgx6M-unsplash.jpg");
+
+          background-image: url("./clay-banks-z_DkoUqgx6M-unsplash.jpg");
           background-repeat: no-repeat;
           background-size: cover;
           background-position: center;
@@ -26,22 +25,39 @@ body {
 }
 
 .searching {
-         display: flex;
-         margin: auto;
-         width: 30%;
-         padding: 10px;
-         align-items: center;
-         text-align: right;
-         justify-content: center;
-         justify-content: right;
-         position: absolute;
-         flex-wrap: wrap;
+         width: 200px;
+         display: grid;
+         grid-template-columns: 150px 20px;
+         border: 2px solid lawngreen;
 }
 
-#who {
-          background-color: rgba(161, 85, 31, 0.4);
-          border: solid white;
+.find-it {
+
+}
+
+.who {
+          height: 50px;
+          width: 110px;
+          border: none;
           border-radius: 9px;
           font-size: 2rem;
-          color:white;
+          background-color: yellow;
+}
+
+.thoughts {
+          
+}
+
+.parent {
+          width: 200px;
+          display: grid;
+          grid-template-columns: 150px 20px;
+}
+
+.photo-box {
+
+}
+
+.info-box {
+
 }
