@@ -1,3 +1,8 @@
+const { JSDOM } = require( "jsdom" );
+const { window } = new JSDOM( "" );
+const $ = require( "jquery" )( window );
+
+
 const searchForm = $("find-it");
 
 $searchForm.on("find-it", event => {
@@ -7,10 +12,10 @@ $searchForm.on("find-it", event => {
 
           const who = formData.get("who").toLocaleLowerCase();
 
-          const url = `https://openlibrary.org/dev/docs/api/search.json?q=${who}`
+          const url = `https://openlibrary.org/dev/docs/api/search.json?${who}`
 
 
-          console.log(url)
+          console.log(img)
 
           const $photo = $('.parent')
           
